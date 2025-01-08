@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         clientId="FGhopEUvrATAcFzc7zmWaGgOEEEnXcPQ"
         authorizationParams={{
           // redirect_uri: "http://localhost:5173",
-          redirect_uri: "https://ghar-dekho-website-jet.vercel.app",
+          redirect_uri: "https://ghar-dekho-five.vercel.app",
         }}
         audience="http://localhost:5000"
         // audience="https://ghar-dekho-website.vercel.app"
