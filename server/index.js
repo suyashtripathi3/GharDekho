@@ -14,9 +14,6 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors())
 
-
-
-
 app.listen(PORT, ()=>{
     console.log(`Server is running on the port ${PORT}`);
 });
