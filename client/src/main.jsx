@@ -12,8 +12,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         domain="dev-duevwhf88qatr4vf.us.auth0.com"
         clientId="B3FdSU0hj8O6MWJZroxLjtg2f0hAZ7dn"
         authorizationParams={{
-          redirect_uri: "http://localhost:5173/",
-          // redirect_uri: "https://ghar-dekho-one.vercel.app/",
+          // redirect_uri: "http://localhost:5173/",
+          redirect_uri: "https://ghar-dekho-one.vercel.app/",
         }}
         audience="http://localhost:5000"
         // audience="https://ghar-dekho-website.vercel.app"
