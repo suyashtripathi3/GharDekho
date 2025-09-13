@@ -9,8 +9,8 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
       <Auth0Provider
-        domain="dev-duevwhf88qatr4vf.us.auth0.com"
-        clientId="B3FdSU0hj8O6MWJZroxLjtg2f0hAZ7dn"
+        domain="dev-fmhxba2otfai6a2c.us.auth0.com"
+        clientId="TAjbDGo35nondhK9932YEsfrfc4z8hRA"
         authorizationParams={{
           // redirect_uri: "http://localhost:5173/",
           redirect_uri: "https://ghar-dekho-nu.vercel.app",
