@@ -26,7 +26,7 @@ const Layout = () => {
     const getTokenAndRegister = async () => {
       const res = await getAccessTokenWithPopup({
         authorizationParams: {
-          audience: "https://ghar-dekho-fwyq.vercel.app",
+          audience: "http://localhost:5000",
           scope: "openid profile email",
         },
       });
