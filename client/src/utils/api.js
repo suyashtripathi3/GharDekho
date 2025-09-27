@@ -3,8 +3,8 @@ import dayjs from "dayjs";
 import { toast } from "react-toastify";
 
 export const api = axios.create({
-  baseURL: "http://localhost:5000/api",
-  // baseURL: "https://ghar-dekho-eight.vercel.app/api",
+  // baseURL: "http://localhost:5000/api",
+  baseURL: "https://ghar-dekho-one.vercel.app/api",
 });
 
 export const getAllProperties = async () => {
